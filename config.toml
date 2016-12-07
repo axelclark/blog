@@ -1,0 +1,14 @@
+siteTitle = "Axel Clark"
+siteDescr = "The personal website of Axel Clark"
+siteAuthor = "Axel Clark"
+
+siteTelegramUrl = "#"
+siteTwitterUrl = "#"
+siteGithubUrl = "#"
+siteEmailUrl = "#"
+siteRssUrl = "#"
+siteVkUrl = "#"
+
+googleAnalyticsId = ""
+
+linkPrefix = "/gatsby-starter-lumen"
