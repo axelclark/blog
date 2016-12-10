@@ -11,7 +11,7 @@ import './style.css';
 class SitePage extends React.Component {
     render() {
         const {route} = this.props
-        const post = route.page.data
+        const page = route.page.data
 
         return (
             <div>
@@ -21,8 +21,8 @@ class SitePage extends React.Component {
                   <div className='main-inner'>
                     <div className='blog-page'>
                       <div className='text'>
-                        <h1>{ post.title }</h1>
-                        <div dangerouslySetInnerHTML={ {    __html: post.body} } />
+                        <h1>{ page.title }</h1>
+                        <div dangerouslySetInnerHTML={ {    __html: page.body} } />
                       </div>
                     </div>
                   </div>
@@ -34,8 +34,7 @@ class SitePage extends React.Component {
 }
 
 SitePage.propTypes = {
-    post: React.PropTypes.object.isRequired,
-    pages: React.PropTypes.array,
+    route: React.PropTypes.object.isRequired,
 }
 
 export default SitePage
