@@ -25,13 +25,13 @@
 }
 .blog-post .blog-category {
 	font-size: 14px;
-	color: #f7a046;
-	font-weight: 500;
+	color: #808A9F;
+	font-weight: 900;
 	text-transform: uppercase;
 }
 .blog-post .readmore {
 	font-size: 16px;
-	color: #5d93ff;
+	color: #013670;
 }
 .blog-post .readmore:hover {
 	border-bottom: 1px solid;
