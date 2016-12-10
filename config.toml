@@ -2,13 +2,9 @@ siteTitle = "Axel Clark"
 siteDescr = "The personal website of Axel Clark"
 siteAuthor = "Axel Clark"
 
-siteTelegramUrl = "#"
-siteTwitterUrl = "#"
-siteGithubUrl = "#"
-siteEmailUrl = "#"
-siteRssUrl = "#"
-siteVkUrl = "#"
+siteTwitterUrl = "https://twitter.com/axelclark2"
+siteGithubUrl = "https://github.com/axelclark"
 
 googleAnalyticsId = ""
 
-linkPrefix = "/gatsby-starter-lumen"
+linkPrefix = "/axelclark"

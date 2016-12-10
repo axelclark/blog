@@ -17,22 +17,6 @@ class SiteLinks extends React.Component {
                 <li>
                   <a href={ config.siteGithubUrl }><i className='fa fa-github-alt'></i></a>
                 </li>
-                <li>
-                  <a href={ config.siteVkUrl }><i className='fa fa-vk'></i></a>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <a href={ config.siteEmailUrl }><i className='fa fa-envelope-o'></i></a>
-                </li>
-                <li>
-                  <a href={ config.siteTelegramUrl }><i className='fa fa-paper-plane'></i></a>
-                </li>
-              </ul>
-              <ul>
-                <li>
-                  <a href={ config.siteRssUrl }><i className='fa fa-rss'></i></a>
-                </li>
               </ul>
             </div>
             );
